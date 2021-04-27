@@ -1,0 +1,46 @@
+body {
+    margin: auto;
+    background-color: #caf0f8;        
+}
+
+#main-container{
+    background-color: white;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 3px 3px 5px 6px rgb(240, 238, 238);
+}
+h1 {
+    margin: 0px;
+    font-family: 'Zen Dots', cursive;
+    background-color: #48cae4;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    letter-spacing: 2px;
+}
+
+p {
+    border: solid 2px #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background: white;
+}
+.important-text{
+    font-style: italic;
+    color: darkred;
+}
+
+footer {
+    background-color: #03045e;
+    color: #caf0f8;
+    font-size: 0.9em;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
