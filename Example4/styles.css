@@ -1,0 +1,36 @@
+header{
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 30px;
+}    
+
+#center{
+    min-height: 400px;
+    height: 400px;
+    background-color: lightgray;
+}
+#main-menu{
+    width: 20%;
+    background-color: aquamarine;
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+}
+
+#page-contents{
+    display: inline-block;
+    width:79%;
+    background-color: blueviolet;
+    height: 100%;
+    text-align: center;
+}
+
+
+footer{
+    padding:10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+}
