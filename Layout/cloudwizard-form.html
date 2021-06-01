@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+    <title>Cloud-Wizard Page</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+    label {
+        min-width: 100px;
+    }
+</style>
+
+<body>
+    <!-- menu -->
+    <div class="container">
+        <form method="post" action="" id="frmStudent" class="shaddow card">
+            <div class="card-header">
+                <h6>Student Form</h6>
+            </div>
+            <div class="card-body">
+                <input type="hidden" name="id" />
+                <div class="form-fields">
+                    <div class="form-group">
+                        <label for="id">Id</label>
+                        <input type="number" name="id" id="id" />
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Number</label>
+                        <input type="text" name="number" id="number" />
+                    </div>
+                    <div class="form-group">
+                        <label for="firstName">FirstName</label>
+                        <input type="text" name="firstName" id="firstName" />
+                    </div>
+                    <div class="form-group">
+                        <label for="secondName">SecondName</label>
+                        <input type="text" name="secondName" id="secondName" />
+                    </div>
+                    <div class="form-group">
+                        <label for="thirdName">ThirdName</label>
+                        <input type="text" name="thirdName" id="thirdName" />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">LastName</label>
+                        <input type="text" name="lastName" id="lastName" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="hourPrice">HourPrice</label>
+                        <input type="number" name="hourPrice" id="hourPrice" />
+                    </div>
+                </div>
+                <div class="text-center">
+                    <input type="button" value="Add" class="btn btn-info" />
+                </div>
+            </div>
+        </form>
+        <table id="table_id" class="table table-striped table-hover shaddow">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="#"></th>
+                    <th scope="row">Id</th>
+                    <th scope="row">Number</th>
+                    <th scope="row">FirstName</th>
+                    <th scope="row">SecondName</th>
+                    <th scope="row">ThirdName</th>
+                    <th scope="row">LastName</th>
+                    <th scope="row">Email</th>
+                    <th scope="row">HourPrice</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="#"><i class="fa fa-edit" /></a></td>
+                    <td><a href="#"><i class="fa fa-trash text-danger" /></a></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="#"><i class="fa fa-edit" /></a></td>
+                    <td><a href="#"><i class="fa fa-trash text-danger" /></a></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="#"><i class="fa fa-edit" /></a></td>
+                    <td><a href="#"><i class="fa fa-trash text-danger" /></a></td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="#"><i class="fa fa-edit" /></a></td>
+                    <td><a href="#"><i class="fa fa-trash text-danger" /></a></td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><a href="#"><i class="fa fa-edit" /></a></td>
+                    <td><a href="#"><i class="fa fa-trash text-danger" /></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer class="container-fluid">
+        <div>Copyrights reserved to YourCompany</div>
+        <div>Powered by cloud-wizard.com</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js" type="text/javascript"
+        charset="utf8"></script>
+</body>
+
+</html>
